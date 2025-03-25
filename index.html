@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sheltered Routes SG</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Sheltered Route</h1>
+        <form id="routeSelector">
+            <div class="form-group">
+                <label>Starting Point:</label>
+                <input type="text" value="SMU" disabled>
+            </div>
+            <div class="form-group">
+                <label>Destination:</label>
+                <select id="destination" required>
+                    <option value="">Select destination...</option>
+                    <option value="chinatown">Chinatown</option>
+                    <option value="dhoby">Dhoby Ghaut MRT</option>
+                    <option value="bugis">Bugis Junction</option>
+                </select>
+            </div>
+            <button type="submit">Show Route</button>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
